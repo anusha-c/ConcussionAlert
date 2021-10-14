@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		17855A7A271868DD006656CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A79271868DD006656CF /* AppDelegate.swift */; };
 		17855A7C271868DD006656CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A7B271868DD006656CF /* SceneDelegate.swift */; };
-		17855A7E271868DD006656CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A7D271868DD006656CF /* ViewController.swift */; };
+		17855A7E271868DD006656CF /* YourInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A7D271868DD006656CF /* YourInfoViewController.swift */; };
 		17855A81271868DD006656CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17855A7F271868DD006656CF /* Main.storyboard */; };
 		17855A83271868E3006656CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17855A82271868E3006656CF /* Assets.xcassets */; };
 		17855A86271868E3006656CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17855A84271868E3006656CF /* LaunchScreen.storyboard */; };
 		17855A91271868E3006656CF /* ConcussionAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A90271868E3006656CF /* ConcussionAlertTests.swift */; };
 		17855A9C271868E3006656CF /* ConcussionAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17855A9B271868E3006656CF /* ConcussionAlertUITests.swift */; };
+		17965DC72718925E0091C8E2 /* DoctorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DC62718925E0091C8E2 /* DoctorInfoViewController.swift */; };
+		17965DCF2718926F0091C8E2 /* EyeCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DCE2718926F0091C8E2 /* EyeCaptureViewController.swift */; };
+		17965DD42718927F0091C8E2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DD32718927F0091C8E2 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		17855A76271868DD006656CF /* ConcussionAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcussionAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17855A79271868DD006656CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17855A7B271868DD006656CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17855A7D271868DD006656CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17855A7D271868DD006656CF /* YourInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourInfoViewController.swift; sourceTree = "<group>"; };
 		17855A80271868DD006656CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17855A82271868E3006656CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17855A85271868E3006656CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		17855A97271868E3006656CF /* ConcussionAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcussionAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17855A9B271868E3006656CF /* ConcussionAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcussionAlertUITests.swift; sourceTree = "<group>"; };
 		17855A9D271868E3006656CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17965DC62718925E0091C8E2 /* DoctorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfoViewController.swift; sourceTree = "<group>"; };
+		17965DCE2718926F0091C8E2 /* EyeCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCaptureViewController.swift; sourceTree = "<group>"; };
+		17965DD32718927F0091C8E2 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,9 @@
 		17855A78271868DD006656CF /* ConcussionAlert */ = {
 			isa = PBXGroup;
 			children = (
-				17855A79271868DD006656CF /* AppDelegate.swift */,
-				17855A7B271868DD006656CF /* SceneDelegate.swift */,
-				17855A7D271868DD006656CF /* ViewController.swift */,
-				17855A7F271868DD006656CF /* Main.storyboard */,
-				17855A82271868E3006656CF /* Assets.xcassets */,
-				17855A84271868E3006656CF /* LaunchScreen.storyboard */,
+				17965DC3271891D50091C8E2 /* Model */,
+				17965DC4271891E30091C8E2 /* View */,
+				17965DC5271891E80091C8E2 /* Controller */,
 				17855A87271868E3006656CF /* Info.plist */,
 			);
 			path = ConcussionAlert;
@@ -126,6 +129,36 @@
 				17855A9D271868E3006656CF /* Info.plist */,
 			);
 			path = ConcussionAlertUITests;
+			sourceTree = "<group>";
+		};
+		17965DC3271891D50091C8E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17965DC4271891E30091C8E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17855A7F271868DD006656CF /* Main.storyboard */,
+				17855A84271868E3006656CF /* LaunchScreen.storyboard */,
+				17855A82271868E3006656CF /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17965DC5271891E80091C8E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17855A79271868DD006656CF /* AppDelegate.swift */,
+				17855A7B271868DD006656CF /* SceneDelegate.swift */,
+				17855A7D271868DD006656CF /* YourInfoViewController.swift */,
+				17965DC62718925E0091C8E2 /* DoctorInfoViewController.swift */,
+				17965DCE2718926F0091C8E2 /* EyeCaptureViewController.swift */,
+				17965DD32718927F0091C8E2 /* ResultsViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17855A7E271868DD006656CF /* ViewController.swift in Sources */,
+				17965DCF2718926F0091C8E2 /* EyeCaptureViewController.swift in Sources */,
+				17855A7E271868DD006656CF /* YourInfoViewController.swift in Sources */,
 				17855A7A271868DD006656CF /* AppDelegate.swift in Sources */,
 				17855A7C271868DD006656CF /* SceneDelegate.swift in Sources */,
+				17965DC72718925E0091C8E2 /* DoctorInfoViewController.swift in Sources */,
+				17965DD42718927F0091C8E2 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

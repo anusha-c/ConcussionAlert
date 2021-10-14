@@ -18,6 +18,9 @@
 		17965DC72718925E0091C8E2 /* DoctorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DC62718925E0091C8E2 /* DoctorInfoViewController.swift */; };
 		17965DCF2718926F0091C8E2 /* EyeCaptureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DCE2718926F0091C8E2 /* EyeCaptureViewController.swift */; };
 		17965DD42718927F0091C8E2 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DD32718927F0091C8E2 /* ResultsViewController.swift */; };
+		17965DDC27189A7F0091C8E2 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DDB27189A7F0091C8E2 /* PlayerInfo.swift */; };
+		17965DE127189A8D0091C8E2 /* DoctorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DE027189A8D0091C8E2 /* DoctorInfo.swift */; };
+		17965DE627189A980091C8E2 /* TrainerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17965DE527189A980091C8E2 /* TrainerInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		17965DC62718925E0091C8E2 /* DoctorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfoViewController.swift; sourceTree = "<group>"; };
 		17965DCE2718926F0091C8E2 /* EyeCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeCaptureViewController.swift; sourceTree = "<group>"; };
 		17965DD32718927F0091C8E2 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		17965DDB27189A7F0091C8E2 /* PlayerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
+		17965DE027189A8D0091C8E2 /* DoctorInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorInfo.swift; sourceTree = "<group>"; };
+		17965DE527189A980091C8E2 /* TrainerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,9 @@
 		17965DC3271891D50091C8E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				17965DDB27189A7F0091C8E2 /* PlayerInfo.swift */,
+				17965DE027189A8D0091C8E2 /* DoctorInfo.swift */,
+				17965DE527189A980091C8E2 /* TrainerInfo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,10 +302,13 @@
 			files = (
 				17965DCF2718926F0091C8E2 /* EyeCaptureViewController.swift in Sources */,
 				17855A7E271868DD006656CF /* YourInfoViewController.swift in Sources */,
+				17965DE127189A8D0091C8E2 /* DoctorInfo.swift in Sources */,
 				17855A7A271868DD006656CF /* AppDelegate.swift in Sources */,
+				17965DE627189A980091C8E2 /* TrainerInfo.swift in Sources */,
 				17855A7C271868DD006656CF /* SceneDelegate.swift in Sources */,
 				17965DC72718925E0091C8E2 /* DoctorInfoViewController.swift in Sources */,
 				17965DD42718927F0091C8E2 /* ResultsViewController.swift in Sources */,
+				17965DDC27189A7F0091C8E2 /* PlayerInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

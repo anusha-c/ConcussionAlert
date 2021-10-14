@@ -155,8 +155,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jyO-jf-c6c">
-                                <rect key="frame" x="107" y="334.5" width="200" height="206"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="J04-KJ-QsL">
+                                <rect key="frame" x="33" y="322.5" width="163" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" systemColor="systemTealColor"/>
                             </imageView>
@@ -179,6 +179,11 @@
                                     <color key="titleShadowColor" systemColor="systemRedColor"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eye" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="jyO-jf-c6c">
+                                <rect key="frame" x="215" y="319.5" width="163" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" systemColor="systemTealColor"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tNE-Zm-kGd"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -189,7 +194,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wIQ-u3-4Y1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="683" y="510"/>
+            <point key="canvasLocation" x="682.60869565217399" y="509.59821428571428"/>
         </scene>
         <!--Doctor Info View Controller-->
         <scene sceneID="wQU-XZ-UAD">
